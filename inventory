@@ -1,2 +1,2 @@
 [ubuntu20]
-172.17.0.1 ansible_user=bharath
+172.16.135.60 ansible_user=bharath
