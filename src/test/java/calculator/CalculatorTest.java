@@ -38,7 +38,7 @@ public class CalculatorTest {
     public void logTruePositive()
     {
         assertEquals ("Square root of an Int - True Positive", 0, calc.log(1), DELTA);
-        assertEquals ("Square root of an Int - True Positive", 1, calc.log(10), DELTA);
+        assertEquals ("Square root of an Int - True Positive", 2.30258, calc.log(10), DELTA);
     }
 
     @Test
