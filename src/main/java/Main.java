@@ -21,6 +21,26 @@ public class Main {
                 int x = scan.nextInt();
                 System.out.println("Square root of " + x + " is: " + calculator.SquareRoot(x));
             }
+            else if(menu == 2)
+            {
+                System.out.println("Enter number");
+                int x = scan.nextInt();
+                System.out.println("Square root of " + x + " is: " + calculator.factorial(x));
+            }
+            else if(menu == 3)
+            {
+                System.out.println("Enter number");
+                int x = scan.nextInt();
+                System.out.println("Square root of " + x + " is: " + calculator.log(x));
+            }
+            else if(menu == 4)
+            {
+                System.out.println("Enter base");
+                int x = scan.nextInt();
+                System.out.println("Enter power");
+                int y = scan.nextInt();
+                System.out.println("Square root of " + x + " is: " + calculator.power(x, y));
+            }
             System.out.println("1. Square Root");
             System.out.println("2. Factorial");
             System.out.println("3. Logarithm");
