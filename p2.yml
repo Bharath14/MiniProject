@@ -1,6 +1,7 @@
 ---
 - name: Pull docker image from dockerHub
-  hosts: all
+  hosts: ubuntu18
+  remote_user : bharath
   tasks:
     - name: Pull calculator image
       docker_image:
