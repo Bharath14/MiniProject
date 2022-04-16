@@ -29,7 +29,7 @@ public class Main {
             }
             else if(menu == 3)
             {
-                System.out.println("Enter number");
+                System.out.println("Enter number:");
                 int x = scan.nextInt();
                 System.out.println("Logarithm of " + x + " is: " + calculator.log(x));
             }
