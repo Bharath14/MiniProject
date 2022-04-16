@@ -23,7 +23,7 @@ public class Main {
             }
             else if(menu == 2)
             {
-                System.out.println("Enter number");
+                System.out.println("Enter number:");
                 int x = scan.nextInt();
                 System.out.println("Factorial of " + x + " is: " + calculator.factorial(x));
             }
