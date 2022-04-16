@@ -1,7 +1,8 @@
+---
 - name: Pull docker image from dockerHub
-    hosts: all
-    tasks:
-      - name: Pull calculator image
-        docker_image:
-          name: ellanti14/miniproject
-          source: pull
+  hosts: all
+  tasks:
+    - name: Pull calculator image
+      docker_image:
+        name: ellanti14/miniproject
+        source: pull
