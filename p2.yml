@@ -1,8 +1,7 @@
-- name: Deploy a jar file
-  hosts: ubuntu20
-  remote_user: bharath
-  tasks:
-    - name: Copy jar file to home directory
-      copy:
-        src: ./target/calculatorDevOps-1.0-SNAPSHOT-jar-with-dependencies.jar
-        dest: ~/
+- name: Pull docker image from dockerHub
+    hosts: all
+    tasks:
+      - name: Pull calculator image
+        docker_image:
+          name: ellanti14/miniproject
+          source: pull
