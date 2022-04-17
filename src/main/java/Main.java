@@ -18,25 +18,25 @@ public class Main {
             if(menu == 1)
             {
                 System.out.println("Enter number");
-                int x = scan.nextInt();
+                double x = scan.nextDouble();
                 System.out.println("Square root of " + x + " is: " + calculator.SquareRoot(x));
             }
             else if(menu == 2)
             {
                 System.out.println("Enter number:");
-                int x = scan.nextInt();
+                double x = scan.nextDouble();
                 System.out.println("Factorial of " + x + " is: " + calculator.factorial(x));
             }
             else if(menu == 3)
             {
                 System.out.println("Enter number:");
-                int x = scan.nextInt();
+                double x = scan.nextDouble();
                 System.out.println("Logarithm of " + x + " is: " + calculator.log(x));
             }
             else if(menu == 4)
             {
                 System.out.println("Enter base");
-                int x = scan.nextInt();
+                double x = scan.nextDouble();
                 System.out.println("Enter power");
                 int y = scan.nextInt();
                 System.out.println(x + " Power of " + y + " is: " + calculator.power(x, y));

@@ -18,3 +18,20 @@
 2022-04-16 19:10:56.220 [Calculator.java] INFO  calculator.Calculator - Factorial of 5	120.0
 2022-04-16 19:11:00.358 [Calculator.java] INFO  calculator.Calculator - Logarithm of 10	2.302585092994046
 2022-04-16 19:11:06.136 [Calculator.java] INFO  calculator.Calculator - 3Power4	81.0
+2022-04-17 18:20:01.527 [Calculator.java] INFO  calculator.Calculator - Factorial of 0.0	1.0
+2022-04-17 18:20:01.537 [Calculator.java] INFO  calculator.Calculator - Factorial of 4.0	24.0
+2022-04-17 18:20:01.539 [Calculator.java] INFO  calculator.Calculator - Square root of 4.0	2.0
+2022-04-17 18:20:01.540 [Calculator.java] INFO  calculator.Calculator - Square root of 16.0	4.0
+2022-04-17 18:20:01.541 [Calculator.java] INFO  calculator.Calculator - Square root of 7.0	2.6457513110645907
+2022-04-17 18:20:01.542 [Calculator.java] INFO  calculator.Calculator - Square root of 49.0	7.0
+2022-04-17 18:20:01.544 [Calculator.java] INFO  calculator.Calculator - Logarithm of 1.0	0.0
+2022-04-17 18:20:01.545 [Calculator.java] INFO  calculator.Calculator - Logarithm of 10.0	2.302585092994046
+2022-04-17 18:20:01.546 [Calculator.java] INFO  calculator.Calculator - Factorial of 1.0	1.0
+2022-04-17 18:20:01.547 [Calculator.java] INFO  calculator.Calculator - Factorial of 5.0	120.0
+2022-04-17 18:20:01.556 [Calculator.java] INFO  calculator.Calculator - 2.0Power0	1.0
+2022-04-17 18:20:01.557 [Calculator.java] INFO  calculator.Calculator - 4.0Power3	64.0
+2022-04-17 18:20:01.558 [Calculator.java] INFO  calculator.Calculator - 0.0Power1	0.0
+2022-04-17 18:20:01.559 [Calculator.java] INFO  calculator.Calculator - 10.0Power2	100.0
+2022-04-17 18:20:01.560 [Calculator.java] INFO  calculator.Calculator - Logarithm of 2.0	0.6931471805599453
+2022-04-17 18:20:01.560 [Calculator.java] INFO  calculator.Calculator - Logarithm of 4.0	1.3862943611198906
+2022-04-17 15:18:37.917 [Calculator.java] INFO  calculator.Calculator - Square root of 4	2.0

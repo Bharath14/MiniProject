@@ -7,12 +7,12 @@ import java.util.InputMismatchException;
 import java.lang.Math;
 public class Calculator {
     private static final Logger logger = LogManager.getLogger(Calculator.class);
-    public double SquareRoot(int x)
+    public double SquareRoot(double x)
     {
         logger.info("Square root of "+x+"\t"+ Math.sqrt(x));
         return Math.sqrt(x);
     }
-    public double factorial(int x)
+    public double factorial(double x)
     {
         double fac = 1;
         for(int i =2;i<=x;i++)
@@ -23,13 +23,13 @@ public class Calculator {
         return fac;
     }
 
-    public double log(int x)
+    public double log(double x)
     {
         logger.info("Logarithm of "+x+"\t"+ Math.log(x));
         return Math.log(x);
     }
 
-    public double power(int x , int y)
+    public double power(double x , int y)
     {
         logger.info(x+"Power"+y+"\t"+ Math.pow(x, y));
         return Math.pow(x, y);
