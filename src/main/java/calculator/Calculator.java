@@ -9,29 +9,29 @@ public class Calculator {
     private static final Logger logger = LogManager.getLogger(Calculator.class);
     public double SquareRoot(double x)
     {
-        logger.info("Square root of "+x+"\t"+ Math.sqrt(x));
+        logger.info("Square Root");
         return Math.sqrt(x);
     }
     public double factorial(double x)
     {
+        logger.info("Factorial");
         double fac = 1;
         for(int i =2;i<=x;i++)
         {
             fac = fac*i;
         }
-        logger.info("Factorial of "+x+"\t"+ fac);
         return fac;
     }
 
     public double log(double x)
     {
-        logger.info("Logarithm of "+x+"\t"+ Math.log(x));
+        logger.info("Logarithm");
         return Math.log(x);
     }
 
     public double power(double x , int y)
     {
-        logger.info(x+"Power"+y+"\t"+ Math.pow(x, y));
+        logger.info("Power");
         return Math.pow(x, y);
     }
 }
